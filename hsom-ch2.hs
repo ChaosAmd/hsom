@@ -26,7 +26,7 @@ majorChord p d = note d p :=: note d (trans 4 p) :=: fifth p d
 fifth :: Pitch -> Dur -> Music Pitch
 fifth p d = note d (trans 7 p)
 
-{- Proof By calculation of the twoFiveOne (G, 4) wn  = g251
+{- Proof By calculation of the twoFiveOne (G, 3) wn  = g251
 twoFiveOne (G, 3) wn = let secondMinor = minorChord (trans 2 p) wn
                            fifthMajor = majorChord (trans 7 p) wn
                            tonicMajor = mahjorChord (G, 3) (wn * 2)
