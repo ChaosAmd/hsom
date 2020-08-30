@@ -48,4 +48,6 @@ tonicMajor (G, 3) (wn * 2) = gMajor in g251
 
 Switching the variables we conclude that
 twofiveOne (G, 3) wn = aMinor :=: dMajor :=: gMajor
+
+
 -}
